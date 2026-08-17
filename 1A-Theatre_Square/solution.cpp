@@ -1,0 +1,1 @@
+#include <iostream>using namespace std; int main() {    long long n, m, a;  // use long long to handle large values    cin >> n >> m >> a;     // ceil division for both sides    long long lenFlagstone = (n + a - 1) / a;    long long widFlagstone = (m + a - 1) / a;     cout << lenFlagstone * widFlagstone << endl;    return 0;}
