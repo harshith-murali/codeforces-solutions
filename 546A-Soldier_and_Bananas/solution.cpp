@@ -1,0 +1,1 @@
+#include<iostream>using namespace std;int main() {    int k, n, w;    cin >> k >> n >> w;    long long total_cost = (long long)k * w * (w + 1) / 2;    long long diff = total_cost - n;    cout << (diff > 0 ? diff : 0) << "\n";    return 0;}
