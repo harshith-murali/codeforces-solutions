@@ -1,0 +1,1 @@
+#include<iostream>#include<vector>using namespace std; int main() {    int steps;    cin >> steps;        //  In one step the elephant can move 1, 2, 3, 4 or 5 positions forward.     int min_steps = (steps + 4) / 5;    cout << min_steps << endl;        return 0;}
